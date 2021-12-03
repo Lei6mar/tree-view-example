@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+html {
+  font-family: Consolas, "Lucida Console", Menlo, "dejavu sans mono", monospace;
+  font-size: 12px;
+}
+
+
+body{
+  /* font-family: Consolas, "Lucida Console", Menlo, "dejavu sans mono", monospace;
+  font-size: 12px; */
+}
+
+
+input:focus{
+  /* border: none;
+  border: 1px solid #ccc; */
+  
+}
+
+.add_button{
+  color: #FFFFFF;
+  background-color: darkgray; 
+  cursor: pointer;
+  border: none;
+  font-size: 10px;
+  border-radius: 10px;
+}

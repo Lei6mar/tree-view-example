@@ -1,0 +1,19 @@
+.container{
+  display: flex;
+  width: 100%;
+}
+
+.json{
+  margin-left: 10px;
+  width: 100%;
+}
+.load{
+  width: 100%;
+}
+
+textarea{
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  width: 80%;
+
+}
