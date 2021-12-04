@@ -1,4 +1,3 @@
-<!-- <button (click)="changeVisibility(visible)" >Hidden</button> -->
 <div class="container">
   <div class="load">
     <label for="textarea">Cargar JSON:</label>
@@ -14,15 +13,13 @@
       <button (click)="imprimirObjeto()">Imprimir objeto</button>
 
       <button (click)="showAllElements()">Mostrar</button>
-      <!-- <label>Search</label> <input (input)="searchElement($event)" /> -->
     </div>
     <div>
-      <!-- [ngClass]="{ invisible: visible !== true, visible: visible === true }" -->
       <div class="object" id="object" *ngIf="jsonObject">
         <button (click)="addRootObject($event, jsonObject)" class="add_button">
           Add root
         </button>
-        <json-tree-bap [obj]="jsonObject"></json-tree-bap>
+        <ng-json-tree-view [obj]="jsonObject"></ng-json-tree-view>
       </div>
     </div>
   </div>
